@@ -1,10 +1,10 @@
 # Minion Animation
 
-A simple HTML/CSS animation of a Minion character, featuring blinking eyes and basic styling.
+A simple HTML/CSS animation of a Minion character jumping up and down every second with both arms moving.
 
 ## Preview
 
-![Minion Animation](./Pictures/Screenshots/Screenshot%20from%202026-10-02%2012-19-48.png)
+![Minion Animation](Screenshot%20from%202026-10-02%2012-19-48.png)
 
 ## Technologies Used
 
@@ -16,7 +16,3 @@ A simple HTML/CSS animation of a Minion character, featuring blinking eyes and b
 1. Clone or download this repository.
 2. Open `index.html` in any modern web browser.
 3. Enjoy the animation!
-
-## License
-
-This project is open source and available under the MIT License.
