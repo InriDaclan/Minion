@@ -8,7 +8,7 @@ Without animation.
 ![Minion Animation](Screenshot%20from%202026-10-02%2012-19-48.png)
 
 With animation.
-[🎬 Watch Minion Animation](./Screencast%20from%2010-02-2026%2012%3A35%3A59%20PM.webm)
+[🎬 Watch Minion Animation](Screencast%from%10-02-2026%12:35:59%PM.webm)
 
 ## Technologies Used
 
