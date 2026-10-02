@@ -1,0 +1,323 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: gray;
+}
+
+.minion {
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    margin: auto;
+
+    .minionbody{
+
+        .body{
+            width: 200px;
+            height: 300px;
+            position: absolute;
+            top: 10px;
+            border-radius: 300px 300px 0 0;
+            background: linear-gradient(
+            120deg,
+            #fff45c,
+            yellow 60%,
+            #c9a900);
+        }
+
+        .mouth{
+            width: 80px;
+            height: 40px;
+            background-color: black;
+            position: absolute;
+            top: 180px;
+            left: 60px;
+            border-radius: 0 0 100px 100px;
+        }
+
+        .teeth-top{
+            width: 70px;
+            height: 15px;
+            background-color: white;
+            position: absolute;
+            top: 183px;
+            left: 65px;
+            border-radius: 0 0 100px 100px;
+        }
+
+        .teeth-bot{
+            width: 50px;
+            height: 15px;
+            background-color: white;
+            position: absolute;
+            top: 199px;
+            left: 75px;
+            border-radius: 0 0 300px 300px;
+        }
+        
+        .arms{
+            width: 110px;
+            height: 25px;
+            position: absolute;
+            top: 230px;
+            border-radius: 10px;
+            background-color: yellow;
+
+            &.left{
+                left: -88px;
+                transform-origin: right center;
+
+                .gloves{
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 10px 0 0 10px ; 
+                    background-color: black;
+                }
+            }
+            &.right{
+                left: 183px;
+                transform: rotate();
+                background-color: yellow;
+                transform-origin: left center;
+
+                    .gloves{
+                    width: 25px;
+                    height: 25px;
+                    background-color: black;
+                    position: relative;
+                    left: 85px;
+                    border-radius: 0 10px 10px 0 ;
+                }
+            }
+        }
+
+        .legs{
+            width: 25px;
+            height: 50px;
+            position: absolute;
+            top:370px;
+            border-radius: 10px;
+            background-color: yellow;
+
+            &.left{
+                left: 65px;
+
+                .boots{
+                    width: 25px;
+                    height: 25px;
+                    background-color: black;
+                    position: relative;
+                    top: 25px;
+                    border-radius: 0 0 10px 10px;
+                }
+            }
+            &.right{
+                left: 110px;
+
+                    .boots{
+                    width: 25px;
+                    height: 25px;
+                    background-color: black;
+                    position: relative;
+                    top: 25px;
+                    border-radius: 0 0 10px 10px;
+                }
+            }
+        }
+    }
+
+    .goggleSet{
+
+        .gogglestrap{
+            width: 220px;
+            height: 20px;
+            position: absolute;
+            top: 110px;
+            left: -9px;
+            border-radius: 10px;
+            background-color: black;
+            z-index: 1;
+        }
+
+        .goggle{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 70px;
+            left: 48px;
+            border-radius: 50%;
+            background-color: gray;
+            z-index: 2;
+        }
+
+        .eyelid {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            top: 80px;
+            left: 59px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 0, 0);
+            z-index: 6;
+
+
+            .eyelid {
+                animation: blink 3s infinite;
+            }
+        }
+
+        .eye{
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            top: 80px;
+            left: 59px;
+            border-radius: 50%;
+            background-color: white;
+            z-index: 3;
+        }
+
+        .eye1{
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 100px;
+            left: 79px;
+            border-radius: 50%;
+            background-color: rgb(255, 107, 53);
+            z-index: 4;
+        }
+
+        .eye2{
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            top: 107px;
+            left: 86px;
+            border-radius: 50%;
+            background-color: black;
+            z-index: 5;
+        }
+
+    }
+
+    .clothing{
+
+        .clothbody{
+            width: 110px;
+            height: 150px;
+            position: absolute;
+            top: 230px;
+            left: 43px;
+            border-radius: 0 0 20px 20px;
+            background: linear-gradient(
+            120deg,
+            #5aaeff,
+            #0875d1 60%,
+            #07509b
+            );
+            z-index: 1;
+        }
+
+        .strap{
+            width: 100px;
+            height: 20px;
+            position: absolute;
+            top: 219px;
+            z-index: 1;
+
+            &.left{
+                left: -16px;
+                transform: rotate(35deg);
+                border-radius:50px 300px 300px 300px;
+                background-color:  #4da3ff;
+            }
+
+            &.right{
+                left: 117px;
+                transform: rotate(-35deg);
+                border-radius:300px 5px 300px 300px;
+                background-color: #2f7ecc;
+            }
+        }
+
+        .clothbottom{
+            width: 205px;
+            height: 80px;
+            position: absolute;
+            top: 300px;
+            left: -2px;
+            background: linear-gradient(
+            120deg,
+            #5aaeff,
+            #0875d1 50%,
+            #02386e
+            );
+            border-radius: 8px 8px 100px 100px;
+        }
+
+    }
+
+}
+
+.animation {
+    animation: minion-bounce 1s infinite;
+}
+
+.arms.right {
+    animation: right-arm-wave 1s infinite;
+}
+
+.arms.left {
+    animation: arm-wave 1s infinite;
+}
+
+@keyframes arm-wave {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(20deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes right-arm-wave {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-20deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes minion-bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes blink{
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
