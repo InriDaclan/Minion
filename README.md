@@ -4,11 +4,7 @@ A simple HTML/CSS animation of a Minion character jumping up and down every seco
 
 ## Preview
 
-Without animation.
 ![Minion Animation](Screenshot%20from%202026-10-02%2012-19-48.png)
-
-With animation.
-[🎬 Watch Minion Animation](Screencast%from%10-02-2026%12:35:59%PM.webm)
 
 ## Technologies Used
 
